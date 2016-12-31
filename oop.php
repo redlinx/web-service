@@ -11,4 +11,6 @@ $student = new Student();
 $student->DisplayMessage();
 
 
+mysql_connect();
+
 ?>
