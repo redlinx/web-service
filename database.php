@@ -34,5 +34,7 @@ class Student extends Database{
 
 $student = new Student();
 $result = $student->displayStudentInfo();
-
+echo "<pre>";
+print_r($result);
+echo "</pre>";
 ?>
