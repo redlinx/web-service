@@ -1,8 +1,17 @@
 <?php
-    $client = new SoapClient(null, array('location' => "http://10.53.48.11:8080/webservice/server1.php",
-    									 'uri'      => "http://10.53.48.12:8080/webservice/server1.php",
-    									 'trace'    => 1));
+/*
+Created by Francis Rey Padao
+Date Created December 31 2016
+*/
+$client = new SoapClient(null, array('location'   => "http://localhost/webservice/server1.php",
+									 'uri'        => "http://localhost/webservice/server1.php",
+									 'trace'      => 1,
+									 'exceptions' => 0));
 
-    $return = $client->__soapCall('displayMessage',array('Francis'));
-    print_r($return);
+$return = $client->__soapCall('displayStudentInfo',array('user1','1234abcd'));
+
+echo "<br>";
+echo "<pre>";
+print_r($return);
+echo "</pre>";
 ?>
