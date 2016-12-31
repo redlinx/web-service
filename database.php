@@ -20,12 +20,12 @@ class Student extends Database{
 		$result = mysql_query($sql);
 		$ctr = 0;
 		while($row = mysql_fetch_array($result)){
-			$student_info[0][$ctr] = $row[0];
-			$student_info[1][$ctr] = $row[1];
-			$student_info[2][$ctr] = $row[2];
-			$student_info[3][$ctr] = $row[3];
-			$student_info[4][$ctr] = $row[4];
-			$student_info[5][$ctr] = $row[5];
+			$student_info[$ctr][0] = $row[0];
+			$student_info[$ctr][1] = $row[1];
+			$student_info[$ctr][2] = $row[2];
+			$student_info[$ctr][3] = $row[3];
+			$student_info[$ctr][4] = $row[4];
+			$student_info[$ctr][5] = $row[5];
 			$ctr++;
 		}
 		return $student_info;
