@@ -17,7 +17,7 @@ class Student extends Database{
 	public function displayStudentInfo(){
 		$sql = 'SELECT * FROM student';
 		$this->connectDb();
-		$result = mysql_quesry($sql);
+		$result = mysql_query($sql);
 		$ctr = 0;
 		while($row = mysql_fetch_array($result)){
 			$student_info[0][$ctr] = $row[0];
