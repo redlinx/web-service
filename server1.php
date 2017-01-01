@@ -16,7 +16,7 @@ class student{
 
 
 
-$server = new SoapServer(NULL, array('uri' => "http://10.53.48.5:8080/dayone/server1.php"));
+$server = new SoapServer(NULL, array('uri' => "http://localhost/dayone/server1.php"));
 $server->setClass('student');
 $server->handle()$function_list = $server->getFunctions();
  print_r($function_list);
