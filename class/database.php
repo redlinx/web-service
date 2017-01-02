@@ -13,6 +13,7 @@ class Database{
 	protected function authenticateUser($id,$password){
 		$sql = "SELECT * FROM user_login WHERE login_username = '".$id."' AND 
 											   login_password = '".$password."'";
+	
 		$this->connectDb();
 		$result = mysql_query($sql);
 		$row = mysql_fetch_array($result);
