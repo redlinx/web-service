@@ -1,6 +1,3 @@
 # web-service
-web service
+web service implementation in PHP using SOAP
 Created by Francis Rey Padao December 31 2016
-modified by dagi December 31 2016
-modified by amanuel December 31 2016
-modified by mulatu december 31 2016
