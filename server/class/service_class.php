@@ -18,5 +18,10 @@ class ServiceClass{
 		$result = $teacher->displayTeacherInfo();
 		return $result;
 	}
+
+	public function insertStudentInfo($studinfo){
+		$student = new Student();
+		$student->insertStudentInfo($studinfo);
+	}
 }
 ?>

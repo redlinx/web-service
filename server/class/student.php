@@ -27,5 +27,12 @@ class Student extends Database{
 		}
 		return $student_info;
 	}
+
+	public function insertStudentInfo($studinfo){
+		$sql = "INSERT INTO student(Stud_fname,Stud_lname,Stud_bday,Stud_mobile,Stud_address)
+				VALUES('".$studinfo[0]."','".$studinfo[1]."','".$studinfo[2]."','".$studinfo[3]."','".$studinfo[4]."')";
+		$this->connectDb();
+		mysql_query($sql);
+	}
 }
 ?>
