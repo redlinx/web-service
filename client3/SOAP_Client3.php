@@ -35,6 +35,7 @@ $return = $client->__soapCall('displayStudentInfo',array('user1','1234abcd'));
 
 echo "<table border=1>";
 	echo "<tr>";
+		echo "<th>No</th>";
 		echo "<th>First Name</th>";
 		echo "<th>Last Name</th>";
 		echo "<th>Birthday</th>";
@@ -43,7 +44,9 @@ echo "<table border=1>";
 	echo "</tr>"; 
 
 for($x=0;$x<count($return);$x++){
+	$y = $x+1;
 	echo "<tr>";
+	echo "<td>".$y."</td>";
 	echo "<td>".$return[$x][1]."</td>";
 	echo "<td>".$return[$x][2]."</td>";
 	echo "<td>".$return[$x][3]."</td>";
