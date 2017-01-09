@@ -3,8 +3,8 @@
 Created by Francis Rey Padao
 Date Created December 31 2016
 */
-$client = new SoapClient(null, array('location'   => "http://localhost/webservice/server1.php",
-									 'uri'        => "http://localhost/webservice/server1.php",
+$client = new SoapClient(null, array('location'   => "http://localhost/webservice/server/server1.php",
+									 'uri'        => "http://localhost/webservice/server/server1.php",
 									 'trace'      => 1,
 									 'exceptions' => 0));
 
