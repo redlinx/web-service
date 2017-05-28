@@ -6,7 +6,7 @@ Modified January 9 2017
 */
 require_once('class/service_class.php');
 
-$soap_server_uri = "http://".SERVER_HOSTNAME."/webservice/server1.php";
+$soap_server_uri = "http://".SERVER_HOSTNAME."/webservice/server1/server.php";
 $server = new SoapServer(NULL, array('uri' => $soap_server_uri));
 $server->setClass('ServiceClass');
 $server->handle();
