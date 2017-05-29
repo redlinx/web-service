@@ -51,16 +51,54 @@
 	},
 	"buffers":
 	[
+<<<<<<< HEAD
+=======
+		{
+			"file": "client3/SOAP_Client3.php",
+			"settings":
+			{
+				"buffer_size": 1830,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server1/class/config.php",
+			"settings":
+			{
+				"buffer_size": 165,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client2/SOAP_Client2.php",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client1/SOAP_Client1.php",
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server1/server.php",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Windows"
+			}
+		}
+>>>>>>> 85f90b7f5d41eb59398b513a2bd474d2e21811f3
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -84,6 +122,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/C/xampp/htdocs/webservice",
 		"/C/xampp/htdocs/webservice/server1",
 		"/C/xampp/htdocs/webservice/server1/class"
@@ -161,6 +200,12 @@
 		"/C/Users/Francis/Desktop/Research/Research01/Yarn Classifier Dataset.arff",
 		"/C/Program Files/Weka-3-6/data/breast-cancer.arff",
 		"/C/Users/Francis/Desktop/Research/Research01/Yarn Classifier Dataset.csv"
+=======
+		"/Applications/XAMPP/xamppfiles/htdocs/webservice"
+	],
+	"file_history":
+	[
+>>>>>>> 85f90b7f5d41eb59398b513a2bd474d2e21811f3
 	],
 	"find":
 	{
@@ -195,8 +240,155 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"sheets":
 			[
+=======
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client3/SOAP_Client3.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1287,
+								1287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server1/class/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client2/SOAP_Client2.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client1/SOAP_Client1.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "server1/server.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+>>>>>>> 85f90b7f5d41eb59398b513a2bd474d2e21811f3
 			]
 		}
 	],
@@ -235,7 +427,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "webservice.sublime-project",
 	"replace":
 	{
@@ -245,7 +436,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -254,7 +444,6 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -263,7 +452,6 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
