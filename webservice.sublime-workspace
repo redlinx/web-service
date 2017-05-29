@@ -51,51 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client3/SOAP_Client3.php",
-			"settings":
-			{
-				"buffer_size": 1830,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server1/class/config.php",
-			"settings":
-			{
-				"buffer_size": 165,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client2/SOAP_Client2.php",
-			"settings":
-			{
-				"buffer_size": 387,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client1/SOAP_Client1.php",
-			"settings":
-			{
-				"buffer_size": 453,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server1/server.php",
-			"settings":
-			{
-				"buffer_size": 338,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -130,16 +85,17 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/webservice",
-		"/C/xampp/htdocs/webservice/client1",
-		"/C/xampp/htdocs/webservice/client2",
-		"/C/xampp/htdocs/webservice/client3",
 		"/C/xampp/htdocs/webservice/server1",
 		"/C/xampp/htdocs/webservice/server1/class"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/webservice/server/class/config.php",
+		"/C/xampp/htdocs/webservice/server1/server.php",
+		"/C/xampp/htdocs/webservice/client1/SOAP_Client1.php",
+		"/C/xampp/htdocs/webservice/client2/SOAP_Client2.php",
+		"/C/xampp/htdocs/webservice/server1/class/config.php",
 		"/C/xampp/htdocs/webservice/client3/SOAP_Client3.php",
+		"/C/xampp/htdocs/webservice/server/class/config.php",
 		"/C/xampp/mysql/bin/my.ini",
 		"/C/xampp/htdocs/webservice/server/class/database.php",
 		"/C/xampp/htdocs/webservice/server/class/service_class.php",
@@ -147,10 +103,8 @@
 		"/C/xampp/htdocs/webservice/server/class/student.php",
 		"/C/xampp/htdocs/webservice/server/server1_function_list.php",
 		"/C/xampp/htdocs/odbc/odbc_test.php",
-		"/C/xampp/htdocs/webservice/client2/SOAP_Client2.php",
 		"/C/xampp/htdocs/webservice/server/server2.php",
 		"/C/xampp/htdocs/webservice/client4/SOAP_Client4.php",
-		"/C/xampp/htdocs/webservice/client1/SOAP_Client1.php",
 		"/C/xampp/phpMyAdmin/config.inc.php",
 		"/C/xampp/htdocs/webservice/server/class/teacher.php",
 		"/C/xampp/htdocs/webservice/class/service_class.php",
@@ -241,150 +195,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client3/SOAP_Client3.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1287,
-								1287
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 20.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "server1/class/config.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								159,
-								150
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client2/SOAP_Client2.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 387,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client1/SOAP_Client1.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "server1/server.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								338,
-								338
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
