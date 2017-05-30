@@ -7,9 +7,9 @@ require_once('student.php');
 require_once('teacher.php');
 
 class ServiceClass{
-	public function displayStudentInfo($id,$password){
+	public function displayStudentInfo(){
 		$student = new Student();
-		$result = $student->displayStudentInfo($id,$password);
+		$result = $student->displayStudentInfo();
 		return $result;
 	}
 

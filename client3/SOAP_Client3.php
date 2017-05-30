@@ -1,3 +1,7 @@
+<?php 
+//error_reporting(0); 
+?>
+
 <h2>Registration Form</h2>
 <table>
 <form action="SOAP_Client3.php" method="post">
@@ -31,8 +35,13 @@ if(isset($_POST['fname']) AND isset($_POST['lname'])){
 	$return = $client->__soapCall('insertStudentInfo',array($studentInfo));	
 }
 
-$return = $client->__soapCall('displayStudentInfo',array('user1','1234abcd'));
+$return = $client->__soapCall('displayStudentInfo',array());
 
+echo "<b>Source:</b> ".$return["host_info"];
+echo "<br>";
+echo "<b>Server Status:</b> ".$return["host_stat"];
+echo "<br>";
+echo "<br>";
 echo "<table border=1>";
 	echo "<tr>";
 		echo "<th>No</th>";
@@ -43,15 +52,15 @@ echo "<table border=1>";
 		echo "<th>Home Address</th>";
 	echo "</tr>"; 
 
-for($x=0;$x<count($return);$x++){
+for($x=0;$x<count($return["student_info"]);$x++){
 	$y = $x+1;
 	echo "<tr>";
 	echo "<td>".$y."</td>";
-	echo "<td>".$return[$x][1]."</td>";
-	echo "<td>".$return[$x][2]."</td>";
-	echo "<td>".$return[$x][3]."</td>";
-	echo "<td>".$return[$x][4]."</td>";
-	echo "<td>".$return[$x][5]."</td>";
+	echo "<td>".$return["student_info"][$x][1]."</td>";
+	echo "<td>".$return["student_info"][$x][2]."</td>";
+	echo "<td>".$return["student_info"][$x][3]."</td>";
+	echo "<td>".$return["student_info"][$x][4]."</td>";
+	echo "<td>".$return["student_info"][$x][5]."</td>";
 	echo "</tr>";
 }
 echo "</table>";
