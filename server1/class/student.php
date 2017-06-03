@@ -28,6 +28,7 @@ class Student extends Database{
 			$ctr++;
 		}
 		
+		$db->close();
 		return $student;
 	}
 

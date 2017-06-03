@@ -37,7 +37,7 @@ if(isset($_POST['fname']) AND isset($_POST['lname'])){
 
 $return = $client->__soapCall('displayStudentInfo',array());
 
-echo "<b>Source:</b> ".$return["host_info"];
+echo "<b>Data Source:</b> ".$return["host_info"];
 echo "<br>";
 echo "<b>Server Status:</b> ".$return["host_stat"];
 echo "<br>";
