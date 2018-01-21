@@ -34,8 +34,10 @@ class Student extends Database{
 
 	public function insertStudentInfo($studinfo){
 
-		$sql = "INSERT INTO student(Stud_fname,Stud_lname,Stud_bday,Stud_mobile,Stud_address)
-				VALUES('".$studinfo[0]."','".$studinfo[1]."','".$studinfo[2]."','".$studinfo[3]."','".$studinfo[4]."')";
+		$sql = "INSERT INTO student(Stud_fname,Stud_lname,Stud_bday,Stud_mobile,Stud_address,md_1,md_2,md_3,md_4,md_5)
+				VALUES('".$studinfo[0]."','".$studinfo[1]."','".$studinfo[2]."','".$studinfo[3]."','".$studinfo[4]."'
+				        ,SHA1('".$studinfo[0]."'),SHA1('".$studinfo[1]."'),SHA1('".$studinfo[2]."'),SHA1('".$studinfo[3]."')
+				        ,SHA1('".$studinfo[4]."'))";
 		$db = $this->connectDb_master();
 		$db->real_query($sql);
 	}
